@@ -8,7 +8,6 @@ public class Main {
         String challenge12 = "11111-1111";
         String challenge12b = "11111";
         System.out.println(challenge12.matches("[0-9]{5}(-[0-9]{4}){0,1}"));
-        System.out.println(challenge12b.matches("[0-9]{5}(-[0-9]){0,1}"));
 
 
 
